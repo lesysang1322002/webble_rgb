@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type = "text/javascript" src="main.js"></script>
+</head>
+<h1>LED RGB</h1>
+<button id="toggleButton" onclick="toggleFunction()">SCAN</button>
+<body>
+    <button class="button" id="togButton" onclick="togFunction()">START</button>
+    <p>Red Value: <span id="Value1"></span></p>
+    <input type="range" min="0" max="255" class="slider" id="Valu1" onchange="servo1(this.value)"/>
+    <p>Green Value: <span id="Value2"></span></p>
+    <input type="range" min="0" max="255" class="slider" id="Value2" onchange="servo2(this.value)"/>
+    <p>Blue Value: <span id="Value3"></span></p>
+    <input type="range" min="0" max="255" class="slider" id="Value3" onchange="servo3(this.value)"/>
+</body>
+</html>

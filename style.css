@@ -1,0 +1,44 @@
+/* CSS cho nút */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Hover state: thay đổi màu nền khi di chuột qua nút */
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Active state: thay đổi màu nền khi nút được click */
+  .button:active {
+    background-color: #00468c;
+  }  
+
+  h1{
+    text-align: center;
+  }
+  #toggleButton{
+    right:0ch;
+    position:absolute;
+    font-size: 20px;
+    width: 120px;height: 40px;
+    background-color:#29b97f;
+    border-radius: 10px;
+ }
+  body {
+    text-align: center;
+    font-family: "Trebuchet MS", Arial;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .slider {
+    width: 300px;
+  }
